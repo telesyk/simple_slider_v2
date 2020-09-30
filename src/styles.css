@@ -1,0 +1,33 @@
+:root {
+  --slider-width: 320px;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.slider {
+  position: relative;
+  overflow-x: hidden;
+  width: var(--slider-width);
+  margin: auto;
+}
+
+.slider-container {
+  display: flex;
+}
+
+.slider .image {
+  flex: 1 1 auto;
+  min-width: var(--slider-width);
+}
+
+.image img {
+  width: auto;
+}
+
+.slider-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
